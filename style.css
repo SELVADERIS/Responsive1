@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  .col li{
+      display: inline;
+      padding: 10%;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+ 
+ 
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  .column {
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .column {
+      max-width: 100%;
+    }
+  }
+  
+
+  @media screen and (max-width: 992px) {
+    .column {
+     display: flex;
+     float: left;
+     }
+     .column img{
+      width: 100%;
+     }
+    
+  }
+    
+  
